@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Git GitHub</title>
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <link rel="shortcut icon" type="image/ico" href="favicon.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css" id="theme">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+</head>
+
+<body>
+    <div class="reveal">
+
+        <div class="slides">
+            <!--Intro-->
+            <section>
+                <h1>Version Control Software and Basic Web Dev</h1>
+                <h3>With Git GitHub</h3>
+                <p>
+                    <small>Stephen O'Connor <a href="http://theWhiteFox.ninja">theWhiteFox.ninja</a></small>
+                </p>
+                <div class="thewhitefox logo"></div>
+            </section>
+
+            <section>
+                <h2>Introduction</h2>
+                <ul>
+                    <li class="fragment">Tools to be a Programmer / Web Developer</li>
+                    <li class="fragment">Learning to Programme & Problem Solve </li>
+                    <li class="fragment">Languages I like Java, JS, HTML5, SQL</li>
+                    <li class="fragment">My Site<a href="http://www.theWhiteFox.ninja"> theWhiteFox.ninja</a></li>
+                </ul>
+                <div class="thewhitefox logo"></div>
+            </section>
+
+            <section>
+                <h2>Goals</h2>
+                <ul>
+                    <li class="fragment">Install and use Git / GitHub</li>
+                    <li class="fragment">Create a HTML CV using host gh-pages</li>
+                    <li class="fragment">Use basic Git commands</li>
+                    <li class="fragment">Sites and tech to learn from</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Tools</h2>
+
+                <ul>
+                    <li class="fragment"><a href="">Visual Studio Code </a> A windows cross platform code editor (optional)</li>
+                    <li class="fragment">Git / GitHub / GitHub Pages
+                        <ul>                            
+                            <li><code>Git for windows</code> — <a href="https://git-scm.com/download/win">Git</a> a version control application</li>
+                            <li><code>GitHub</code> — <a href="https://github.com/">GitHub</a> a website where you can upload a copy of your Git repository</li>
+                            <li><code>GitHub</code> — <a href="https://help.github.com/articles/what-are-github-pages/">GitHub Pages</a> are public webpages hosted and published through our site.</li>
+                        </ul>
+                    </li>
+                    <li class="fragment"><a href=""> Bootstrap</a> using a CDN</li>
+                </ul>
+            </section>
+
+            <!--GitHub-->
+            <section>
+                <h2>What is GitHub / Git?</h2>
+                <p class="highlight blue">According to howtogeek.com...</p>
+                <ol>
+                    <li class="fragment">GitHub is a web-based Git repository hosting service</li>
+                    <li class="fragment">Git is a Version control system that records changes to a file or set of files over time so that you
+                        can recall specific versions later</li>
+                </ol>
+                <div class="github logo"></div>
+            </section>
+            <section>
+                <h2>Example of GitHub Repo - <a href="https://github.com/twbs/bootstrap">Bootstrap</a></h2>
+                <p>Bootstrap the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects
+                    on the web.</p>
+                <p>Bootstrap is the second most-starred project on GitHub, with over 93K stars and more than 40K forks.</p>
+            </section>
+
+            <!--Bootstrap-->
+            <section>
+                <h2>Bootstrap</h2>
+                <p class="highlight blue">javascript front-end framework</p>
+                <ul>
+                    <li class="fragment">Developed by Mark Otto and Jacob Thornton at Twitter</li>
+                    <li class="fragment">Bootstrap is a free and open-source collection of tools for creating websites and web applications</li>
+                    <li class="fragment">Languages HTML CSS JavaScript</li>
+                </ul>
+                <div class="bootstrap logo"></div>
+            </section>
+
+            <!--GitHub-->
+            <section>
+                <h2>How to use Git</h2>
+                <span class="highlight red large fragment" data-fragment-index="1">git add .</span>
+                <span class="right-arrow large fragment" data-fragment-index="2"></span>
+                <span class="highlight green large fragment" data-fragment-index="2">git commit</span>
+                <span class="right-arrow large fragment" data-fragment-index="3"></span>
+                <span class="highlight blue large fragment" data-fragment-index="3">git push</span>
+                <div class="fragment current-visible display-none" data-fragment-index="1">
+                    <p>adds <strong class="highlight red">all</strong> stages new and modified files in the current directory</p>
+                    <ul>
+                        <li>check the status of your files with <pre><code class="javascript" data-trim>git status</code></pre> </li>
+                    </ul>
+                </div>
+                <div class="fragment current-visible display-none" data-fragment-index="2">
+                    <p>Basically git commit <strong class="highlight green">"records changes to the local repository"</strong></p>
+                    <ul>
+                        <pre><code class="javascript" data-trim>git commit -m "Commit message"</code></pre>
+                    </ul>
+                </div>
+                <div class="fragment current-visible display-none" data-fragment-index="3">
+                <p>"updates remote refs along with associated objects"<strong class="highlight blue"> used to interact with a remote repository</strong></p>
+                <pre><code class="javascript" data-trim>git push</code></pre> 
+                <pre><code class="javascript" data-trim>enter Username: & enter Password:</code></pre>
+                </div>
+                </section>
+
+            <section>
+                <h2>Why use Git and GitHub?</h2>
+                <p class="highlight blue">a social network that has completely changed the way we work.</p>
+                <ul>
+                    <li class="fragment" data-fragment-index="1">GitHub is the largest online storage space of collaborative works that exists</li>
+                    <li class="fragment" data-fragment-index="2">brush elbows with the likes of Google and Facebook</li>
+                    <li class="fragment" data-fragment-index="3">GitHub accounts, free to download, study, and build upon</li>
+                </ul>                
+                <div class="github-why logo"> <span>?</span></div>
+            </section>
+            
+            <section>
+                <h2>Why use Git and GitHub?</h2>                
+                <ul>
+                    <li class="fragment" data-fragment-index="1">Show off code to future employers, friends and family</li>
+                    <li class="fragment" data-fragment-index="2">It keeps “snapshots” of every point in time in the project’s history, so you can never lose or overwrite it</li>
+                    <li class="fragment" data-fragment-index="3">multiple people work on a project at the same time without Git getting them confused</li>
+                </ul>                
+                <div class="github-why logo"> <span>?</span></div>
+            </section>
+            
+            <section>
+                <h2>How to Install Git and GitHub</h2>                
+                <ol>
+                    <li class="fragment" data-fragment-index="1">Sign Up for GitHub to create your first repository</li>
+                    <li class="fragment" data-fragment-index="2">Install <a href="https://git-scm.com/download/win">Git</a> Windows. This page auto downloads Git for Windows</li>
+                    <li class="fragment" data-fragment-index="3">Set Up Git, launch Powershell or command prompt </li>
+                    <li class="fragment" data-fragment-index="4"> <pre><code class="javascript" data-trim>git config --global user.name "Your Name Here"</code></pre></li>
+                    <li class="fragment" data-fragment-index="5"> <pre><code class="javascript" data-trim>git config --global user.email "your_email@youremail.com"</code></pre></li>
+                    
+                </ol>                
+                <div class="github-why logo"></div>
+            </section>
+            
+                <section>
+                <h2>Create Your First Repository</h2>                
+                <ol>
+                    <li class="fragment" data-fragment-index="1">click Repositories (repo) tab and then the "New" button on the top right of your account page</li>
+                    <li class="fragment" data-fragment-index="2">Choose a simple repo name (spaces and special characters will cause problems), enter discription, choose public (default) and add Initialize repo with a README file - optional</li>                   
+                </ol>                
+                <div class="github-why logo"></div>
+            </section>
+            
+            <section>
+                <h2>Setting up Github Pages</h2>                
+                <ol> <li class="fragment" data-fragment-index="1">On repo page, select Branch master, create new branch "gh-pages"</li>
+                    <li class="fragment" data-fragment-index="2">Select Settings tab (top right) and go to options menu on left and select Branches (Settings page GitHub Pages URL)</li>
+                    <li class="fragment" data-fragment-index="3">Under Default branch heading selecting master drop down and then select gh-pages</li>
+                    <li class="fragment" data-fragment-index="4">go back to main page and create a HTML file "index.html" using the New File button</li>
+                </ol>                
+                <div class="github-why logo"></div>
+           
+            </section>
+            
+             <section>
+                <h2>Working with local repo</h2>                
+                <ol> <li class="fragment" data-fragment-index="1">Start PowerShell or command prompt</li>
+                    <li class="fragment" data-fragment-index="2">Navigate to development folder type <pre><code class="javascript" data-trim>git clone 'https://github.com/theWhiteFox/cv-demo.git' </code></pre>and copy / paste HTTPS of your repo and click enter</li>
+                    <li class="fragment" data-fragment-index="3">Test git <pre><code class="javascript" data-trim>git status</code></pre></li>
+                    <li class="fragment" data-fragment-index="4">cd name of folder and open folder with text / code editor </li>
+                </ol>                
+                <div class="github-why logo"></div>
+            </section>
+
+            <section data-background="#4d7e65">
+                <h2>BootStrap</h2>
+                <pre><code class="javascript" data-trim>
+
+            </code></pre>
+               
+            </section>
+            
+            <section>
+                <h2>Create CV</h2>
+                
+            </section>
+
+
+            <section data-background="#4d657e">
+                <h2>Summary</h2>
+                <ul>
+                    <li class="fragment">Use Git and GiHub</li>
+                    <li class="fragment">Bootstrap</li>
+                    <li class="fragment">On-line CV</li>
+                </ul>
+            </section>
+
+            <section>
+                <h1>Thanks!</h1>
+
+                <ul class="top-margin final-words">
+                    <li>See slides at <a href="">theWhiteFox</a></li>
+                </ul>
+
+                <div class="bottom-logos">                    
+                    <div class="github small"></div>
+                    <div class="bootstrap small"></div> 
+                    <div class="thewhitefox small"></div>                   
+                </div>
+            </section>
+        </div>
+
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+        // Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				hideAddressBar: true,
+
+				transition: 'none', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+    </script>
+
+</body>
+
+</html>
