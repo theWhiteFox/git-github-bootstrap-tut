@@ -1,2 +1,2 @@
-# git-github-bootstrap-tut
+# How to use Git to build an online CV
 A Git, GitHub and Bootstrap tutorial
